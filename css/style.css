@@ -73,11 +73,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ================================== Подключение шрифтов ================================== */
 /* ================================== Технические стили ================================== */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   font-family: Montserrat;
-  color: #252B42;
+  color: #252b42;
   font-weight: 500;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 /* ----------------- Скрываем элемент */
@@ -118,13 +122,13 @@ body {
     background-color: rgba(13, 92, 99, 0.6784313725);
   }
   .header-scrolled .header__logo {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .header-scrolled .menu__link {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .header-scrolled .menu__link::before {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
   .header-scrolled .header__container {
     min-height: 35px;
@@ -145,13 +149,13 @@ body {
   letter-spacing: 0.2px;
   padding: 0 35px;
   border-radius: 37px;
-  border: 1px solid #0D5C63;
+  border: 1px solid #0d5c63;
   transition: 0.3s;
 }
 .main__button-2:hover, .main__button-1:hover {
-  color: #FFFFFF;
-  background: #FF7B47;
-  border: 1px solid #FF7B47;
+  color: #ffffff;
+  background: #ff7b47;
+  border: 1px solid #ff7b47;
 }
 @media (max-width: 576px) {
   .main__button-2, .main__button-1 {
@@ -336,16 +340,16 @@ body {
   margin: 0px 0px 10px 0px;
 }
 .item-services__body:hover {
-  background-color: #0D5C63;
+  background-color: #0d5c63;
 }
 .item-services__body:hover .item-services__title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .item-services__body:hover .item-services__text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .item-services__body:hover .item-services__icon path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 .item-services__icon path {
   transition: 0.5s;
@@ -368,7 +372,7 @@ body {
   height: 100%;
   text-align: center;
   padding: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .item-achives__body > *:not(:last-child) {
   margin: 0px auto 10px;
@@ -390,7 +394,7 @@ body {
 .item-practice__body {
   flex: 1 1 auto;
   padding: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .item-practice__body > *:not(:last-child) {
   margin: 0px 0px 15px 0px;
@@ -413,7 +417,7 @@ body {
 }
 .item-practice__image {
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-bottom: 60%;
 }
 .item-practice__image img {
@@ -455,19 +459,19 @@ body {
   display: inline-block;
   min-height: 44px;
   padding: 10px 20px;
-  border: 1px solid #FF7B47;
+  border: 1px solid #ff7b47;
   border-radius: 5px;
   font-weight: 600;
   line-height: 171.4285714286%;
   letter-spacing: 0.2px;
-  color: #FF7B47;
+  color: #ff7b47;
   transition: 0.3s;
   position: relative;
   z-index: 2;
 }
 .item-support__button:hover {
-  color: #FFFFFF;
-  background-color: #FF7B47;
+  color: #ffffff;
+  background-color: #ff7b47;
 }
 .item-support__button:active {
   background-color: #d8673b;
@@ -515,26 +519,26 @@ body {
   position: relative;
 }
 .animated-button__border-top {
-  border-top: 1px solid #0D5C63;
+  border-top: 1px solid #0d5c63;
   animation-duration: 2s;
   animation-name: border-top;
 }
 .animated-button__border-right {
   top: -100%;
-  border-right: 1px solid #0D5C63;
+  border-right: 1px solid #0d5c63;
   animation-duration: 2s;
   animation-delay: 1s;
   animation-name: border-right;
 }
 .animated-button__border-bottom {
   left: 100%;
-  border-bottom: 1px solid #0D5C63;
+  border-bottom: 1px solid #0d5c63;
   animation-duration: 2s;
   animation-name: border-bottom;
 }
 .animated-button__border-left {
   top: 100%;
-  border-left: 1px solid #0D5C63;
+  border-left: 1px solid #0d5c63;
   animation-duration: 2s;
   animation-delay: 1s;
   animation-name: border-left;
@@ -623,11 +627,11 @@ body {
     position: fixed;
     bottom: 0;
     background-color: white;
-    box-shadow: 0 4px 15px 1px #252B42;
+    box-shadow: 0 4px 15px 1px #252b42;
     margin-left: -15px;
   }
   .header__menu .menu__link {
-    color: #252B42;
+    color: #252b42;
     font-size: 10px;
   }
   .header__menu .menu__link::before {
@@ -702,7 +706,7 @@ body {
   }
 }
 .page__about {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 100px 0 136px;
 }
 @media (max-width: 1440px) {
@@ -735,7 +739,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 77px;
-  background: #252B42;
+  background: #252b42;
   z-index: -1;
 }
 @media (max-width: 576px) {
@@ -744,7 +748,7 @@ body {
   }
 }
 .page__support {
-  background: #F3F3F3;
+  background: #f3f3f3;
   padding: 80px 0 148px;
 }
 @media (max-width: 1440px) {
@@ -1056,7 +1060,7 @@ body {
 .subscribe__body {
   margin: 0 32px;
   padding: 30px 50px;
-  background: #17213C;
+  background: #17213c;
   border-radius: 2px;
   display: flex;
   justify-content: space-between;
@@ -1079,7 +1083,7 @@ body {
   font-size: 24px;
   line-height: 133.3333333333%;
   letter-spacing: 0.1px;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: 0 1 266px;
 }
 @media (max-width: 992px) {
@@ -1129,19 +1133,19 @@ body {
   }
 }
 .subscribe__form-button {
-  background: #FF7B47;
-  border: 1px solid #FFFFFF;
+  background: #ff7b47;
+  border: 1px solid #ffffff;
   border-radius: 0px 5px 5px 0px;
   line-height: 200%;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 20px;
   transition: all 0.1s linear, color 0.2s linear;
 }
 .subscribe__form-button:hover {
-  box-shadow: inset 0 0 5px 0px #FFFFFF;
-  color: #252B42;
+  box-shadow: inset 0 0 5px 0px #ffffff;
+  color: #252b42;
 }
 .subscribe__form-button:active {
   background-color: #d8673b;
@@ -1187,13 +1191,13 @@ body {
     flex: 1 1 100%;
   }
   .support__column:not(:last-child) {
-    border-bottom: 1px solid #252B42;
+    border-bottom: 1px solid #252b42;
   }
 }
 .support__column-item {
   padding: 50px 40px;
   text-align: center;
-  background: #FFFFFF;
+  background: #ffffff;
   transition: 0.3s;
   position: relative;
 }
@@ -1213,7 +1217,7 @@ body {
   left: 0;
   width: 100%;
   height: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   transition: 0.3s;
 }
 @media (max-width: 992px) {
@@ -1229,7 +1233,7 @@ body {
   left: 0;
   width: 100%;
   height: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   transition: 0.3s;
 }
 @media (max-width: 992px) {
@@ -1251,7 +1255,7 @@ body {
   height: 20px;
   border-radius: 100px/35px;
   border: 5px solid white;
-  background-color: #FF7B47;
+  background-color: #ff7b47;
   z-index: -1;
   transition: display 0.3s;
 }
@@ -1334,7 +1338,7 @@ body {
   display: none;
   position: absolute;
   height: 3px;
-  background-color: #FF7B47;
+  background-color: #ff7b47;
   transition: display 0.3s;
   border-radius: 2px;
 }
@@ -1354,7 +1358,7 @@ body {
   right: 0;
 }
 .support__column-item:hover {
-  background: #252B42;
+  background: #252b42;
 }
 .support__column-item:hover path {
   fill: white;
@@ -1383,11 +1387,11 @@ body {
 }
 .support__column-item:hover::after {
   bottom: -30px;
-  background-color: #252B42;
+  background-color: #252b42;
 }
 .support__column-item:hover::before {
   top: -30px;
-  background-color: #252B42;
+  background-color: #252b42;
 }
 
 @keyframes shaker {
@@ -1517,13 +1521,13 @@ body {
 }
 /* ================================== Ноги =================================== */
 .footer__top {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .footer__middle {
-  background: #17213C;
+  background: #17213c;
 }
 .footer__bottom {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 @media (max-width: 768px) {
   .footer {
@@ -1572,8 +1576,8 @@ body {
   line-height: 200%;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
-  background: #FF7B47;
+  color: #ffffff;
+  background: #ff7b47;
   border-radius: 5px;
   padding: 15px 40px;
   margin: 0 38px;
@@ -1583,7 +1587,7 @@ body {
   display: none;
 }
 .top-footer__column-item-button:hover {
-  color: #0D5C63;
+  color: #0d5c63;
   background: none;
   border-radius: 0px;
 }
@@ -1591,8 +1595,8 @@ body {
   display: block;
 }
 .top-footer__column-item-button:active {
-  color: #FF7B47;
-  box-shadow: inset 0 0 0 1px #FF7B47;
+  color: #ff7b47;
+  box-shadow: inset 0 0 0 1px #ff7b47;
   border-radius: 5px;
 }
 .top-footer__column-item-button:active .animated-border {
